@@ -8,4 +8,11 @@ class MusicianSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Musician
-        fields = ("first_name", "last_name", "age", "instrument", "date_of_applying", "is_adult")
+        fields = (
+            "first_name",
+            "last_name",
+            "age",
+            "instrument",
+            "date_of_applying",
+            "is_adult",
+        )
